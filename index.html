@@ -3,71 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tablet Hulp</title>
+    <title>Startpagina - Hulpmiddelen</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             font-size: 22px;
-            line-height: 1.6;
-            color: #333;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
+            text-align: center;
             background-color: #f4f6f9;
+            padding: 50px 20px;
+            color: #333;
         }
         h1 {
             color: #1a73e8;
-            font-size: 32px;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .card {
-            background: white;
-            padding: 25px;
+            font-size: 36px;
             margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 40px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #1a73e8;
+            color: white;
+            padding: 20px 40px;
+            font-size: 24px;
+            text-decoration: none;
             border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            transition: background-color 0.2s;
         }
-        .warning {
-            background: #fff3cd;
-            border-left: 6px solid #ffc107;
-        }
-        /* Stijl voor de foto's zodat ze netjes op de pagina passen */
-        .card img {
-            width: 100%;
-            max-height: 250px;
-            object-fit: contain;
-            margin-top: 15px;
-            border-radius: 8px;
+        .btn:hover {
+            background-color: #1557b0;
         }
     </style>
 </head>
 <body>
 
-    <h1>Tablet Hulp</h1>
+    <h1>Welkom bij de Hulppagina's</h1>
+    <p>Kies hieronder waar je naartoe wilt gaan:</p>
 
-    <div class="card">
-        <h2>De tablet aanzetten</h2>
-        <p>Houd de <strong>aan/uit-knop</strong> en de <strong>volume omlaag-knop</strong> tegelijkertijd ingedrukt totdat de tablet aangaat.</p>
-        <!-- Vervang 'pad/naar/foto1.jpg' met de bestandsnaam van jouw foto -->
-        <img src="https://raw.githubusercontent.com/esajong/nfctag/refs/heads/main/IMG_20260827_164026.jpg" alt="Foto van knoppen indrukken">
-    </div>
-
-    <div class="card warning">
-        <h2>Belangrijke waarschuwing</h2>
-        <p><strong>Niet aanbevolen:</strong> Als je per ongeluk de <strong>aan/uit-knop</strong> en de <strong>volume omhoog-knop</strong> tegelijk indrukt, kom je in het speciale herstelmenu genaamd <strong>Team Win Recovery Project (TWRP)</strong>.</p>
-        <p>Ben je hier per ongeluk in gekomen? Geen paniek! Druk op het scherm op <strong>Herstarten</strong> (Reboot) en kies daarna voor <strong>Systeem</strong> (System) om weer normaal verder te gaan.</p>
-        <!-- Vervang 'pad/naar/foto3.jpg' met de bestandsnaam van jouw foto -->
-        <img src="https://raw.githubusercontent.com/esajong/nfctag/refs/heads/main/IMG_20260827_163551.jpg" alt="Foto van het TWRP menu">
-    </div>
-   
-    <div class="card warning">
-        <h2>Het scherm ontgrendelen in Team Win Recovery Project (TWRP)</h2>
-        <p>Zie je een slotje op het scherm? Veeg dan met je vinger van <strong>links naar rechts</strong> om de tablet te ontgrendelen.</p>
-        <!-- Vervang 'pad/naar/foto2.jpg' met de bestandsnaam van jouw foto -->
-        <img src="https://raw.githubusercontent.com/esajong/nfctag/refs/heads/main/IMG_20260827_164013.jpg" alt="Foto van ontgrendelen met een slotje">
-    </div>
-
+    <a href="tablet/" class="btn">📱 Tablet Hulp</a>
 
 </body>
 </html>
